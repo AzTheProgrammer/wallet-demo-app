@@ -1,0 +1,4 @@
+[
+  {"id": "acc-main", "name": "Everyday account", "kind": "main", "balance_cents": 1842675, "number": "62018847291"},
+  {"id": "acc-savings", "name": "Savings pocket", "kind": "savings", "balance_cents": 4125000, "number": "62018847305"}
+]

@@ -1,0 +1,7 @@
+[
+  {"id": "ben-1", "name": "Sipho Dlamini", "bank": "Capitec", "account_number": "1450028813"},
+  {"id": "ben-2", "name": "Anele Naidoo", "bank": "FNB", "account_number": "62541190027"},
+  {"id": "ben-3", "name": "Pieter van Wyk", "bank": "Standard Bank", "account_number": "271834402"},
+  {"id": "ben-4", "name": "Lerato Khumalo", "bank": "Nedbank", "account_number": "1198340726"},
+  {"id": "ben-5", "name": "Fatima Adams", "bank": "Absa", "account_number": "4078821935"}
+]

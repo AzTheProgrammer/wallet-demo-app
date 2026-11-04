@@ -1,0 +1,17 @@
+[
+  {"id": "air-10", "kind": "airtime", "label": "R10 airtime", "amount_cents": 1000},
+  {"id": "air-29", "kind": "airtime", "label": "R29 airtime", "amount_cents": 2900},
+  {"id": "air-55", "kind": "airtime", "label": "R55 airtime", "amount_cents": 5500},
+  {"id": "air-110", "kind": "airtime", "label": "R110 airtime", "amount_cents": 11000},
+  {"id": "air-275", "kind": "airtime", "label": "R275 airtime", "amount_cents": 27500},
+  {"id": "data-100", "kind": "data", "label": "100 MB", "detail": "Valid for 3 days", "amount_cents": 1200},
+  {"id": "data-500", "kind": "data", "label": "500 MB", "detail": "Valid for 7 days", "amount_cents": 3900},
+  {"id": "data-1g", "kind": "data", "label": "1 GB", "detail": "Valid for 30 days", "amount_cents": 8500},
+  {"id": "data-5g", "kind": "data", "label": "5 GB", "detail": "Valid for 30 days", "amount_cents": 25900},
+  {"id": "data-20g", "kind": "data", "label": "20 GB", "detail": "Valid for 30 days", "amount_cents": 59900},
+  {"id": "elec-50", "kind": "electricity", "label": "R50 electricity", "amount_cents": 5000},
+  {"id": "elec-100", "kind": "electricity", "label": "R100 electricity", "amount_cents": 10000},
+  {"id": "elec-200", "kind": "electricity", "label": "R200 electricity", "amount_cents": 20000},
+  {"id": "elec-500", "kind": "electricity", "label": "R500 electricity", "amount_cents": 50000},
+  {"id": "elec-1000", "kind": "electricity", "label": "R1 000 electricity", "amount_cents": 100000}
+]

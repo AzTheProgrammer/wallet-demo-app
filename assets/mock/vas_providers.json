@@ -1,0 +1,10 @@
+[
+  {"id": "vodacom", "name": "Vodacom", "kinds": ["airtime", "data"]},
+  {"id": "mtn", "name": "MTN", "kinds": ["airtime", "data"]},
+  {"id": "cellc", "name": "Cell C", "kinds": ["airtime", "data"]},
+  {"id": "telkom", "name": "Telkom", "kinds": ["airtime", "data"]},
+  {"id": "citypower", "name": "City Power", "kinds": ["electricity"]},
+  {"id": "eskom", "name": "Eskom Direct", "kinds": ["electricity"]},
+  {"id": "capetown", "name": "City of Cape Town", "kinds": ["electricity"]},
+  {"id": "ethekwini", "name": "eThekwini Municipality", "kinds": ["electricity"]}
+]

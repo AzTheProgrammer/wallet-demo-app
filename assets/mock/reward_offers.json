@@ -1,0 +1,8 @@
+[
+  {"id": "off-1", "title": "R20 airtime", "description": "Any network", "kind": "airtime", "cost": 800},
+  {"id": "off-2", "title": "R50 airtime", "description": "Any network", "kind": "airtime", "cost": 1900},
+  {"id": "off-3", "title": "1 GB data", "description": "Valid for 30 days", "kind": "data", "cost": 3200},
+  {"id": "off-4", "title": "R100 grocery voucher", "description": "Use at partner stores", "kind": "voucher", "cost": 4500},
+  {"id": "off-5", "title": "R150 coffee voucher", "description": "Use at partner cafes", "kind": "voucher", "cost": 6500},
+  {"id": "off-6", "title": "R500 fuel voucher", "description": "Use at partner garages", "kind": "voucher", "cost": 20000}
+]
