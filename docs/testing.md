@@ -7,7 +7,6 @@
 | Unit | `test/core`, `test/features/**` | Use cases, repositories, mock data sources, validators and money, including failure paths |
 | Bloc | `test/features/**` with `bloc_test` | State transitions for every Bloc and Cubit |
 | Widget | `test/core/widgets_test.dart`, `*_page_test.dart`, `*_pages_test.dart` | Loading, success, empty and error states, plus key interactions |
-| Golden | `test/goldens` | Key screens in light and dark |
 | End to end | `integration_test/happy_path.dart` | Set up a PIN, send money, see it in history |
 
 Mocks use `mocktail`. Shared fixtures, mocks and pump helpers are in `test/helpers`.
@@ -32,11 +31,7 @@ Coverage should stay above 90% on the domain and presentation layers. CI strips 
 
 ## Goldens
 
-Goldens use `alchemist` in CI mode, which draws text as blocks and removes shadows so images match across operating systems. After an intended visual change, update them and review the diff:
-
-```bash
-flutter test test/goldens --update-goldens
-```
+Golden tests are disabled for now. They are commented out in `test/goldens/screens_golden_test.dart`.
 
 ## README screenshots
 
