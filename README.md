@@ -58,7 +58,7 @@ lib/
     rewards/
     profile/
 assets/mock/       JSON fixtures
-test/              unit, bloc, widget and golden tests
+test/              unit, bloc and widget tests
 integration_test/  end-to-end happy path
 ```
 
@@ -85,8 +85,10 @@ Biometrics need a real device or emulator. On web the option shows as unavailabl
 ## Test it
 
 ```bash
-flutter test --coverage
+make coverage
 ```
+
+This runs the tests, prints coverage by layer and writes a browsable report to `coverage/index.html`.
 
 ```bash
 flutter test integration_test -d <device>
