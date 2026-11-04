@@ -1,7 +1,6 @@
 # Wallet
 
 [![CI](https://github.com/websitesbyazhar/wallet_app/actions/workflows/ci.yml/badge.svg)](https://github.com/websitesbyazhar/wallet_app/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/websitesbyazhar/wallet_app/branch/main/graph/badge.svg)](https://codecov.io/gh/websitesbyazhar/wallet_app)
 ![Flutter](https://img.shields.io/badge/Flutter-3.35-0B7A5E)
 ![License](https://img.shields.io/badge/license-MIT-0B7A5E)
 
