@@ -87,7 +87,7 @@ Biometrics need a real device or emulator. On web the option shows as unavailabl
 make coverage
 ```
 
-This runs the tests, prints coverage by layer and writes a browsable report to `coverage/index.html`.
+This runs the tests, prints coverage by layer and writes a report to `coverage/index.html`, where you can click through to any file and see its missed lines.
 
 ```bash
 flutter test integration_test -d <device>

@@ -27,7 +27,7 @@ make coverage
 flutter test integration_test -d <device>
 ```
 
-Coverage should stay above 90% on the domain and presentation layers. `make coverage` leaves generated files out and writes the report to `coverage/index.html`.
+Coverage should stay above 90% on the domain and presentation layers. `make coverage` leaves generated files out and writes the report to `coverage/index.html`. Click through a layer or folder to a file to see its covered and missed lines.
 
 ## Goldens
 
