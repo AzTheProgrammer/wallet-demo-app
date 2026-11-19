@@ -2,10 +2,55 @@ name: CI
 
 on:
   push:
+    branches: [dev, master]
   pull_request:
+    branches: [dev, master]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.35.5"
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Format
+        run: git ls-files '*.dart' | xargs dart format --output=none --set-exit-if-changed
+
+      - run: flutter analyze
+
+      - run: flutter test --coverage
+
+      - name: Coverage report
+        run: |
+          dart run tool/coverage_report.dart | tee coverage/summary.txt
+          {
+            echo '### Coverage'
+            echo '```'
+            grep -v '^Report' coverage/summary.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage
+
   build:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,13 +69,6 @@ jobs:
       - run: flutter pub get
 
       - run: dart run build_runner build --delete-conflicting-outputs
-
-      - name: Format
-        run: git ls-files '*.dart' | xargs dart format --output=none --set-exit-if-changed
-
-      - run: flutter analyze
-
-      - run: flutter test
 
       - run: flutter build apk --release
 

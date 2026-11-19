@@ -2,7 +2,7 @@
 
 > **This is a demo app built for my portfolio, not a real banking product.** No accounts, money or personal data are real, and it doesn't connect to a bank.
 
-[![CI](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml/badge.svg)](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml)
+[![CI](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml)
 ![Flutter](https://img.shields.io/badge/Flutter-3.35-1D4FD1)
 ![License](https://img.shields.io/badge/license-MIT-1D4FD1)
 

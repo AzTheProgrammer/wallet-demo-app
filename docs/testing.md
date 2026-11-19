@@ -11,7 +11,7 @@
 
 Mocks use `mocktail`. Shared fixtures, mocks and pump helpers are in `test/helpers`.
 
-The happy path runs on a device through `integration_test/app_test.dart`, and on the host through `test/app/happy_path_test.dart`, so it runs on every CI build.
+The happy path runs on a device through `integration_test/app_test.dart`, and on the host through `test/app/happy_path_test.dart`, so it runs in CI.
 
 ## Running
 
@@ -28,6 +28,18 @@ flutter test integration_test -d <device>
 ```
 
 Coverage should stay above 90% on the domain and presentation layers. `make coverage` leaves generated files out and writes the report to `coverage/index.html`. Click through a layer or folder to a file to see its covered and missed lines.
+
+## CI
+
+Work happens on `dev` and is merged into `master`.
+
+| Event | Runs |
+| --- | --- |
+| Push or pull request to `dev` | Format check, analyze, all tests with coverage |
+| Pull request to `master` | Format check, analyze, all tests with coverage |
+| Push to `master` | The same checks, then the release APK and web builds |
+
+Every run uploads a `coverage-report` artifact with `lcov.info` and the HTML report, and shows coverage by layer on the run's summary page.
 
 ## Goldens
 
