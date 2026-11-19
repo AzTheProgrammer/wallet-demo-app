@@ -1,6 +1,6 @@
 # Wallet
 
-[![CI](https://github.com/websitesbyazhar/wallet_app/actions/workflows/ci.yml/badge.svg)](https://github.com/websitesbyazhar/wallet_app/actions/workflows/ci.yml)
+[![CI](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml/badge.svg)](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml)
 ![Flutter](https://img.shields.io/badge/Flutter-3.35-0B7A5E)
 ![License](https://img.shields.io/badge/license-MIT-0B7A5E)
 
