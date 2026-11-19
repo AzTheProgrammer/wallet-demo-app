@@ -31,7 +31,7 @@ abstract final class AppTheme {
       brightness: Brightness.dark,
       primary: AppPalette.brandBright,
       onPrimary: AppPalette.brandInk,
-      primaryContainer: Color(0xFF103A30),
+      primaryContainer: Color(0xFF16295A),
       onPrimaryContainer: AppPalette.moon,
       secondary: AppPalette.moonSoft,
       onSecondary: AppPalette.night,

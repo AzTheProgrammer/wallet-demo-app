@@ -25,10 +25,10 @@ class WalletColors extends ThemeExtension<WalletColors> {
     faint: AppPalette.inkFaint,
     line: AppPalette.line,
     tile: AppPalette.mist,
-    skeleton: Color(0xFFE6EBE8),
-    skeletonHighlight: Color(0xFFF4F7F5),
+    skeleton: Color(0xFFE5E9F1),
+    skeletonHighlight: Color(0xFFF3F5FA),
     heroGradient: [AppPalette.brand, AppPalette.brandDeep],
-    savingsGradient: [Color(0xFF22332E), AppPalette.brandInk],
+    savingsGradient: [Color(0xFF222C42), AppPalette.brandInk],
   );
 
   static const dark = WalletColors(
@@ -39,10 +39,10 @@ class WalletColors extends ThemeExtension<WalletColors> {
     faint: AppPalette.moonFaint,
     line: AppPalette.nightLine,
     tile: AppPalette.nightHigh,
-    skeleton: Color(0xFF1C2724),
-    skeletonHighlight: Color(0xFF293632),
-    heroGradient: [Color(0xFF0C8467), AppPalette.brandInk],
-    savingsGradient: [Color(0xFF2A3A35), Color(0xFF131D1A)],
+    skeleton: Color(0xFF1B2335),
+    skeletonHighlight: Color(0xFF283147),
+    heroGradient: [Color(0xFF2160E0), AppPalette.brandInk],
+    savingsGradient: [Color(0xFF283249), Color(0xFF121A2B)],
   );
 
   final Color positive;

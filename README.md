@@ -3,8 +3,8 @@
 > **This is a demo app built for my portfolio, not a real banking product.** No accounts, money or personal data are real, and it doesn't connect to a bank.
 
 [![CI](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml/badge.svg)](https://github.com/AzTheProgrammer/wallet-demo-app/actions/workflows/ci.yml)
-![Flutter](https://img.shields.io/badge/Flutter-3.35-0B7A5E)
-![License](https://img.shields.io/badge/license-MIT-0B7A5E)
+![Flutter](https://img.shields.io/badge/Flutter-3.35-1D4FD1)
+![License](https://img.shields.io/badge/license-MIT-1D4FD1)
 
 A South African banking wallet built with Flutter: pay people, buy airtime, data and prepaid electricity, and redeem rewards. No real money moves. Everything runs on in-app mock data behind the same interfaces a real API will use.
 

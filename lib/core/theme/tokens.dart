@@ -1,27 +1,27 @@
 import 'package:flutter/material.dart';
 
 abstract final class AppPalette {
-  static const brand = Color(0xFF0B7A5E);
-  static const brandBright = Color(0xFF3FD3A6);
-  static const brandDeep = Color(0xFF07513F);
-  static const brandInk = Color(0xFF04322A);
-  static const brandTint = Color(0xFFE2F3EC);
+  static const brand = Color(0xFF1D4FD1);
+  static const brandBright = Color(0xFF6EA8FF);
+  static const brandDeep = Color(0xFF143A9E);
+  static const brandInk = Color(0xFF0A1F4D);
+  static const brandTint = Color(0xFFE3ECFC);
 
-  static const ink = Color(0xFF12201C);
-  static const inkSoft = Color(0xFF4E5F59);
-  static const inkFaint = Color(0xFF66766F);
-  static const line = Color(0xFFE1E7E3);
-  static const canvas = Color(0xFFF6F8F6);
+  static const ink = Color(0xFF121A2B);
+  static const inkSoft = Color(0xFF4E5970);
+  static const inkFaint = Color(0xFF66718A);
+  static const line = Color(0xFFE0E5EE);
+  static const canvas = Color(0xFFF5F7FB);
   static const paper = Color(0xFFFFFFFF);
-  static const mist = Color(0xFFEDF1EE);
+  static const mist = Color(0xFFECF0F7);
 
-  static const night = Color(0xFF0C1412);
-  static const nightRaised = Color(0xFF151F1C);
-  static const nightHigh = Color(0xFF1F2B27);
-  static const nightLine = Color(0xFF2C3A35);
-  static const moon = Color(0xFFEDF3F0);
-  static const moonSoft = Color(0xFFA9B8B2);
-  static const moonFaint = Color(0xFF8B9A94);
+  static const night = Color(0xFF0B1120);
+  static const nightRaised = Color(0xFF141B2D);
+  static const nightHigh = Color(0xFF1E2639);
+  static const nightLine = Color(0xFF2B3449);
+  static const moon = Color(0xFFECF0F8);
+  static const moonSoft = Color(0xFFA8B2C7);
+  static const moonFaint = Color(0xFF8A94AA);
 
   static const positive = Color(0xFF0B7A5E);
   static const positiveDark = Color(0xFF4FD8AE);
@@ -52,10 +52,10 @@ abstract final class AppRadii {
 
 abstract final class AppElevation {
   static const raised = [
-    BoxShadow(color: Color(0x14082019), blurRadius: 24, offset: Offset(0, 8)),
+    BoxShadow(color: Color(0x14081530), blurRadius: 24, offset: Offset(0, 8)),
   ];
   static const hero = [
-    BoxShadow(color: Color(0x33073F31), blurRadius: 32, offset: Offset(0, 16)),
+    BoxShadow(color: Color(0x330A2A73), blurRadius: 32, offset: Offset(0, 16)),
   ];
 }
 
